@@ -1,0 +1,399 @@
+html{
+	height: 100%;
+}
+
+body{	
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;	
+	background-color: #f2f2f2;
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+section{
+	flex: 1;
+}
+
+a{
+	color: #000;
+	cursor: pointer;
+}
+
+a:hover, a:active{text-decoration: none; color: #545454}
+
+body{
+	padding-top: 80px;
+}
+
+.reset_margin{
+	margin: 0px;
+}
+
+.reset_padding{
+	padding-right: 0px;
+    padding-left: 0px;
+}
+
+.reset_col{
+	padding: 0;
+	margin: 0;
+	margin-bottom: 40px;
+}
+
+.centered{
+	text-align: center;
+}
+
+.reset_p{
+	font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.intro_titulo{
+	font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/* ------------------------------------------------
+			MENU
+	---------------------------------------------- */
+.navbar{
+	padding: 15px 0px;
+	background-color: #4682B4;
+	border: 0px;
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
+
+.navbar-brand{
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+.navbar .navbar-brand{
+	color: white;
+}
+
+.navbar .navbar-nav>li>a{
+	color: white;
+	text-transform: uppercase;
+}
+
+.navbar .navbar-nav>li>a:hover, .navbar .navbar-brand:hover{
+	color: #c5c5c5;
+}
+
+.navbar .navbar-toggle{
+	border-color: transparent;
+}
+
+.navbar-toggle .icon-bar{
+	background-color: white;
+}
+
+
+/* ------------------------------------------------
+			FOOTER
+	---------------------------------------------- */
+
+footer{
+	padding: 20px 0px;
+	background-color: #4682B4;
+}
+
+ul.footer_social{
+	text-align: center;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+ul.footer_social>li{
+	display: inline-block;
+	background: black;
+		border-radius: 100%;
+-webkit-border-radius: 100%;
+   -moz-border-radius: 100%;
+    -ms-border-radius: 100%;	
+     -o-border-radius: 100%;
+     margin: 5px;
+     border: 1px solid #2f2f2f;
+}
+
+ul.footer_social>li>a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	font-size: 25px;	
+	line-height: 50px;
+	color: #fff;	
+}
+
+ul.footer_social>li:hover{
+	background-color: transparent;
+	border: 1px solid #fff;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;	
+}
+
+.download_website{
+	margin-top: 15px; 
+}
+
+.footer_text{
+	font-size: 12px;
+	font-weight: bold;
+	color: white;	
+}
+
+
+/* ------------------------------------------------
+		HOMEPAGE - INTRODUCTION
+	---------------------------------------------- */
+
+.intro{
+	background-color: #f2f2f2;
+	padding: 50px 0px 70px 0px;
+}
+
+
+/* ------------------------------------------------
+		PAGE - PROJECTS
+	---------------------------------------------- */
+
+.projects{
+	background-color: white;	
+	padding-bottom: 10px;
+}
+
+.title-projects {
+    padding: 40px 0;
+}
+
+.projects_item{
+	padding: 0px 35px 20px 35px;
+}
+
+.projects_link{
+	position: relative;
+	display: block;
+}
+
+.projects_img{
+	width: 100%;
+}
+
+.projects_hover{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	opacity: 0;	
+	border-radius: 8px;
+}
+
+.projects_hover:hover{
+	background-color: rgba(1, 1, 1, 0.90);
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.projects_description{
+	width: 100%; 
+	height: 50%; 
+	display: flex; 
+	align-items: flex-end; 
+	justify-content: center;
+}
+
+.projects_text{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 0px 20px;
+}
+
+.projects_title{
+	text-align: center;
+	font-size: 25px;
+    	margin-top: 12px;
+}
+
+
+/* ------------------------------------------------
+			PAGE - CONTACT
+	---------------------------------------------- */
+
+.contact{
+	padding: 40px 0px;	
+}
+
+.input_form{
+	width: 100%;
+    	height: 50px;
+    	margin-bottom: 30px;
+    	background: transparent;
+    	border: transparent;
+    	border-bottom: 1px solid black;
+	outline: none;	
+}
+
+.textarea_form{
+	width: 100%;
+    	height: 215px;
+    	margin-top: 22px;
+    	margin-bottom: 30px;
+    	background: transparent;
+    	border: transparent;
+    	border-bottom: 1px solid black;
+	outline: none;	
+}
+
+#btn_submit{
+	width: 100px;
+	height: 35px;
+	text-transform: uppercase;
+	background-color: #2f2f2f;
+	color: #fff;
+	border: transparent;
+	border-radius: 4px;
+	float: right;
+}
+
+
+/* ------------------------------------------------
+			PAGE - BLOG
+	---------------------------------------------- */
+
+
+.posts{
+	padding: 50px 0px;
+}
+
+.img_post_blog{
+	width: 100%;
+}
+
+.post_box{
+	background: #fff;
+	border-radius: 6px;
+	box-shadow: 6px 8px 12px -7px;
+}
+
+.post_title{
+	font-size: 40px;	
+	margin: 10px 0px;	
+	font-weight: bold;
+	color: black;
+}
+
+.post_title:hover{
+	color: #383838;
+}
+
+.post_description{
+	font-size: 17px;
+	margin-top: 13px;
+}
+
+
+/* ------------------------------------------------
+		SINGLE(CONTENT) - BLOG
+	---------------------------------------------- */
+
+.background_single_post{
+	width: 100%; 
+	height: 350px; 	
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+}
+
+.single_title_post{
+	font-size: 72px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #fff;
+
+}
+
+.content_single_post{
+	padding: 40px 110px;
+	margin:0 auto; 
+	font-size: 18px;
+}
+
+.share{
+	background: #efefef;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.share h3{
+	padding: 5px 0;
+	font-size: 28px;
+	color: #000;
+	margin: 0;
+}
+
+.share a i{
+	color: #000;
+	font-size: 28px;
+	padding: 15px;
+}
+/* ------------------------------------------------
+				MEDIA QUERYS
+	---------------------------------------------- */
+
+
+@media (max-width: 768px){	
+	.projects_item{
+		padding: 0px 15px 0px 15px;
+	}
+
+	.div_contact_textarea{
+		padding-left: 0px;
+	}
+
+	.post_title{
+		margin-top: 20px;
+	    	margin-bottom: 10px;		
+	}
+
+	.post_description{
+		margin-top: 20px;
+	}
+
+	.content_single_post{
+		padding: 40px 20px;
+	}
+}	
+
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not{
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
